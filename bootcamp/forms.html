@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML FORMS</title>
+</head>
+<body>
+  <!-- action => WHERE the data will be sent after submit button is clicked -->
+  <!-- method => HOW the data will be sent to your action -->
+  <!-- NOTE: When creating a form ALWAYS start with FORM element -->
+  <form action="" method="">
+    <lable for="username">Username</lable>
+    <!-- text input -->
+    <input type="text" name="username" id="username" required placeholder="@username123"><!-- text input -->
+    <!-- placeholder is used to display sample input or instructions -->
+    <br><br>
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password"><!-- password input -->
+    <!-- required will not allow ther form to be sumbitted if the input field is empty -->
+    <br><br>
+    <!-- submit button - OPTION 1 -->
+    <input type="submit" value="Submit" name="btn_submit" required>
+  </form>
+  <h1>Login</h1>
+  <form action="" method="">
+
+  </form>
+  <h1>Other Details</h1>
+  <form action="" method="">
+    <label for="birthday">Birthday</label><!-- for value and id value must be the same -->
+    <input type="date" name="birthday" id="birthday"><!-- date input -->
+    <br><br>
+    <lable for="age">Age</lable>
+    <input type="number" name="age" id="age" min="18" max="80"><!-- number input -->
+    <br><br>
+    <label for="enail"> Email</label>
+    <input type="email" name="email" id="email"><!-- enail input -->
+    <br><br>
+    <lable for="bio"> Bio / Description</lable>
+    <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+    <br><br>
+    <p>Select Music</p>
+    <!-- raidio button name must be the same-->
+    <input type="radio" name="music" id="jazz" value="jazz">
+    <lable for="jazz">Jazz</lable>
+    <input type="radio" name="music" id="pop" value="pop">
+    <label for="pop">Pop</label>
+    <input type="radio" name="music" id="rock" value="rock">
+    <label for="rock">Rock</label>
+    <br><br>
+    <!-- Submit button - OPTION 2 -->
+    <button type="submit" name="btn_submit">Submit</button>
+    <br><br>
+    <p>Hobby / ies:</p>
+    <input type="checkbox" name="hobby" id="painting" value="painting">
+    <label for="painting">Painting</label>
+    <input type="checkbox" name="hobby" id="hiking" value="hiking">
+    <label for="hiking">Hiking</label>
+    <input type="checkbox" name="hobby" id="Baking" value="baking">
+    <label for="baking">Baking</label>
+    <br><br>
+    <label for="device">Select a device:</label>
+    <!-- dropdown list box -->
+    <select name="device" id="device">
+      <option value="mobile">Mobile Device</option>
+      <option value="tablet">Tablet Device</option>
+      <option value="laptop">Laptop Computer</option>
+      <option value="desktop">Desktop Computer</option>
+    </select>
+    <br><br>
+    <label for="device">Select a device:</label>
+    <!-- multiple select box -->
+    <select name="device" id="device" multiple>
+      <option value="mobile">Mobile Device</option>
+      <option value="tablet">Tablet Device</option>
+      <option value="laptop">Laptop Computer</option>
+      <option value="desktop">Desktop Computer</option>
+    </select>
+    <br><br>
+    <label for="photo">Upload Photo</label>
+    <input type="file" name="photo" id="photo">
+    <br><br>
+    <button type="submit" name="btn_submit">Submit</button>
+
+  </form>
+</body>
+</html>

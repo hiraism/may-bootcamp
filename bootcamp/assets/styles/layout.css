@@ -1,0 +1,108 @@
+.float-left{
+  background-color: rgba(19, 145, 0, 0.1);
+  float: left;
+}
+
+.float-right{
+  background-color: rgba(0, 12, 145, 0.1);
+  float: right;
+}
+
+.float-none{
+  background-color: rgba(145, 0, 116, 0.1);
+  float: none;
+}
+
+.clear-left{
+  clear: left;
+}
+
+.clear-right{
+  clear: right;
+}
+
+.clear-both{
+  clear: both;
+}
+
+.clear-none{
+  clear: none;
+}
+
+.style-01{
+  height: 150px;
+  background-color: rgba(44, 0, 145, 0.1)
+}
+
+/* top, left, right, bottom => .positional properties. WILL NOT work if position is set to static.
+z-index => WILL NOT work if position is set to static. */
+
+.position-static{
+  position: static;
+  left: 50%;
+}
+
+.position-relative{
+  position: relative;
+  left: -50%;
+}
+
+.position-absolute{
+  background-color: rgba(145, 0, 68, 1);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.position-fixed{
+  background: rgba(0, 145, 41);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.style-02{
+  background-color: rgba(136, 132, 0, 0.3);
+  height: 100px;
+}
+
+.btn-01{
+  padding: 10px;
+  background-color: rosybrown;
+}
+
+/* inline elements -> you CANNOT set the width, height, margin-top, margin-bottom */
+
+.display-inline{
+  display: inline;
+  width: 50%; /* will not work */
+  height: 50px;
+}
+.display-block{
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.display-inline-block{
+  display: inline-block;
+  width: 50%;
+}
+.display-none{
+  display: none;
+}
+
+.parent{
+  height: 100%;
+  background-color: rgba(218, 131, 0, 0.5);
+  position: relative;
+  z-index: -2;
+}
+
+.child{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: -1;
+}
+
+/* z-index will only work if position is NOT set to static */

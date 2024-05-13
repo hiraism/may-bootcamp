@@ -1,0 +1,171 @@
+.style-01{
+height: 150px;
+background-color: rgba(181, 78, 255, 0.6);
+}
+
+.style-02{
+  height: 150px;
+  background-color: #ffe34360;
+}
+
+.m-15px{
+  margin: 15px;
+}
+
+.m-15px-30px{
+  margin: 15px 30px;
+}
+
+.m-15px-30px-45px{
+  margin: 15px 30px 45px;
+}
+
+.m-15px-30px-45px-60px{
+  margin: 15px 30px 45px 60px;
+}
+
+.mt-15px{
+  margin-top: 15px;
+}
+
+.mr-15px{
+  margin-right: 15px;
+}
+
+.mb-15px{
+  margin-bottom: 15px;
+}
+
+.ml-15px{
+  margin-left: 15px;
+}
+
+.style-03{
+  background-color: rgba(123, 225, 111, 0.4);
+}
+
+.style-04{
+  background-color: #3b9ef540;
+}
+
+.p-15px{
+  padding: 15px;
+}
+
+.p-15px-30px{
+  padding: 15px 30px;
+}
+
+.p-15px-30px-45px{
+  padding: 15px 30px 45px;
+}
+
+.p-15px-30px-45px-60px{
+  padding: 15px 30px 45px 60px;
+}
+
+.pt-15px{
+  padding-top: 15px;
+}
+
+.pr-15px{
+  padding-right: 15px;
+}
+
+.pb-15px{
+  padding-bottom: 15px;
+}
+
+.pl-15px{
+  padding-left: 15px;
+}
+
+.style-05{
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.solid{
+  border: 10px solid darkgreen;
+}
+
+.dotted{
+  border: 10px dotted navy;
+}
+
+.dashed{
+  border: 10px dashed tomato;
+}
+
+.double{
+  border: 10px double dodgerblue;
+}
+
+.groove{
+  border: 10px groove darkorange;
+}
+
+.ridge{
+  border: 10px ridge purple;
+}
+
+.inset{
+  border: 10px inset palevioletred;
+}
+
+.outset{
+  border: 10px outset palegreen;
+}
+
+.radius{
+  border: 10px solid lightslategrey;
+  border-radius: 10px;
+}
+
+.radius-50-percent{
+  border: 10px solid darkorange;
+  border-radius: 50%;
+}
+
+.border-top{
+  border-top: 10px solid palevioletred;
+}
+
+.border-right{
+  border-right: 10px solid darkorange;
+}
+
+.border-bottom{
+  border-bottom: 10px solid darkslategrey;
+}
+
+.border-left{
+  border-left: 10px solid deepskyblue;
+}
+
+.style-06{
+  width: 150px;
+  height: 150px;
+  border: 2px solid black;
+  background-color: rgba(255, 217, 0, 0.2);
+}
+
+.overflow-hidden{
+  overflow: hidden;
+}
+
+.overflow-scroll{
+  overflow: scroll;
+}
+
+.box-shadow{
+  box-shadow: -10px -15px 7px 15px blue;
+}
+
+.text-center{
+  text-align: center;
+}
+.block-center{
+  margin-left: auto;
+  margin-right: auto;
+}

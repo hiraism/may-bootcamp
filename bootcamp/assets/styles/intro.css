@@ -1,0 +1,57 @@
+/* external CSS */
+
+/* universal selector */
+*{
+  border: 1px dotted gray;
+}
+/* element selector*/
+h2{
+  text-align: center;
+  font-style: italic;
+}
+
+/* class selector */
+.style-01{
+  text-align: center;
+  font-style: italic;
+  color: blue;
+  background-color: burlywood;
+}
+/* class name can be used many times in the file */
+
+
+/* ID selector */
+#paragraph-03{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* id name should be uniwque. It can only be used once inside the file */
+
+h3{
+  color: darkgoldenrod;
+}
+
+h3{
+  color: darkgreen;
+}
+
+h4.style02{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h4{
+  text-align: right;
+  text-transform: lowercase;
+  font-weight: lighter;
+}
+
+ul li{
+  font-weight: bold;
+  font-style:italic;
+}
+
+.navbar li{
+  text-align: center;
+}

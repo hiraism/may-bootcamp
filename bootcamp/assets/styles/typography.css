@@ -1,0 +1,198 @@
+.text-dark-red{
+  color: darkred;
+}
+
+.text-green{
+  color: rgb(0, 123, 14);
+}
+
+.text-green-50{
+  color: rgb(0, 123, 14);
+  opacity: .5;
+}
+/* transparency @50% */
+
+.text-violet{
+  color: rgba(148, 0, 131, 0.4);
+}
+/* transparency @40% */
+
+.text-blue-green{
+  color: #1bcdaa;
+}
+
+.text-serif{
+  font-family: serif;
+}
+
+.text-sans-serif{
+  font-family: sans-serif;
+}
+
+.text-monospace{
+  font-family: monospace;
+}
+
+.text-50px{
+    font-size: 50px;
+}
+
+.text-200-percent{
+   font-size: 200%;
+}
+
+.text-5em{
+   font-size: 5em;
+}
+
+.text-bold{
+  font-weight: bold;
+}
+
+.text-normal{
+  font-weight: normal;
+}
+
+.text-lighter{
+  font-weight: lighter;
+}
+
+.fw-100{
+  font-weight: 100;
+}
+
+.fw-400{
+  font-weight: 400;
+}
+
+.fw-900{
+  font-weight: 900;
+}
+
+.text-normal{
+  font-style: normal;
+}
+
+.text-italic{
+  font-style: italic;
+}
+
+.text-oblique{
+  font-style: oblique;
+}
+
+.text-uppercase{
+  text-transform: uppercase;
+}
+.text-lowercase{
+  text-transform: lowercase;
+}
+.text-capitalize{
+  text-transform: capitalize;
+}
+
+.text-decoration-overline{
+    text-decoration: overline;
+}
+
+.text-decoration-line-through{
+    text-decoration: line-through;
+}
+
+.text-decoration-underline{
+    text-decoration: underline;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.text-shadow{
+      text-shadow: -15px -15px 6px darkolivegreen
+}
+
+.text-indent-50px{
+  text-indent: 50px;
+}
+
+.text-indent-80-percent{
+  text-indent: 80%;
+}
+
+.text-indent-5em{
+  text-indent: 5em;
+}
+
+.letter-spacing-5px{
+  letter-spacing: 5px;
+}
+.letter-spacing-10px{
+  letter-spacing: 10px;
+}
+.letter-spacing-15px{
+  letter-spacing: 15px;
+}
+
+.word-spacing-5px{
+  word-spacing: 5px;
+}
+
+.word-spacing-10px{
+  word-spacing: 10px;
+}
+
+.word-spacing-15px{
+  word-spacing: 15px;
+}
+
+.list-style-type-none{
+list-style: none;
+}
+.list-style-type-disc{
+list-style: disc;
+}
+.list-style-type-circle{
+list-style: circle;
+}
+.list-style-type-square{
+list-style: square;
+}
+
+.list-style-type-lower-decimal{
+  list-style-type: decimal;
+}
+.list-style-type-lower-alpha{
+  list-style-type: lower-alpha;
+}
+.list-style-type-upper-alpha{
+  list-style-type: upper-alpha;
+}
+.list-style-type-lower-roman{
+  list-style-type: lower-roman;
+}
+.list-style-type-upper-roman{
+  list-style-type: upper-roman;
+}
+
+.list-style-position-inside{
+  list-style-position: inside;
+}
+
+.list-style-position-outside{
+  list-style-position: outside;
+}
+
+.list-style-square-outside{
+  list-style: square outside;
+}
+.list-style-roman-inside{
+  list-style: lower-roman inside;
+}

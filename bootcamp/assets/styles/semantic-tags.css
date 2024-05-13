@@ -1,0 +1,101 @@
+.wrapper{
+  width: 100%;
+  margin: auto;
+}
+
+header{
+  background-image: url(../images/20200415_kouzu-photo_13-670x443.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  position: relative;
+}
+
+.header-text{
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  transform: translate(-50%, -50%);
+}
+.header-text h1{
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 3px 3px 3px black;
+}
+.header-text a{
+  display: inline-block;
+  margin-top: 10px;
+  padding: 15px;
+  background-color: darkred;
+  color: white;
+}
+
+nav{
+  padding: 10px;
+  background-color: black;
+}
+nav ul{
+  text-align: center;
+}
+
+nav ul li{
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.row{
+  overflow:auto;
+}
+
+.w-75{
+  width: 75%;
+}
+
+.w-25{
+  width: 25%;
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+section{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(255, 175, 56, 0.3);
+  padding: 10px;
+}
+
+article{
+  border: 1px solid black;
+  padding: 5px;
+}
+aside{
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(56, 159, 255, 0.3);
+}
+
+footer{
+  margin-top: 10px;
+  padding: 10px;
+  background-color: black;
+}
+
+footer p{
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
